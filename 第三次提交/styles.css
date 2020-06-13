@@ -1,0 +1,66 @@
+
+body {
+display: flex;
+justify-content: center;
+}
+h1{
+    color: green; 
+}
+h3{
+    margin:  10px;
+    color: rgb(0, 174, 255);
+}
+.todo-panel{
+    border: 1px solid rgb(223, 90, 90);
+    width: 500px;
+    min-height: 20em;
+    margin: 2em;
+    box-shadow: 10px 8px 4px #888;
+}
+.todo-shuruk{
+    display: flex;
+   
+    margin:  12px;
+}
+.todo-shuruk button{
+    margin: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.todo-shuruk input{
+
+   flex-grow: 1;
+   font-size: 1.2em;
+   padding: 3px 20px ;
+    margin: 1px;
+}
+.todo-xiangmu{
+    border: 1px solid rgb(223, 90, 90);
+    width: 465px;
+    min-height: 17em;
+    margin: 1em;
+    
+}
+.todo-xiangmu > .task{
+    display: flex;
+    align-items: center;
+}
+.todo-xiangmu > .task > label{
+    flex-grow:1 ;
+}
+.todo-xiangmu .contrl > button{
+    border: 0px;
+    background: none;
+    color: blue;
+    cursor: pointer;
+}
+.todo-xiangmu .contrl > button:hover {
+font-weight: bolder;
+
+}
+
+.task.done > label{
+text-decoration: line-through;
+
+}
